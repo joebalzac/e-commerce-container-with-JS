@@ -1,0 +1,136 @@
+.container {
+  margin: 2.1875rem;
+  height: 100vh;
+
+  .header {
+    img {
+      height: 100%;
+      width: 100%;
+      background-position: center;
+      margin: auto;
+    }
+  }
+
+  .title {
+    font-size: 3rem;
+    padding-top: 4.125rem;
+    padding-bottom: 1.5rem;
+
+    @include breakpoint-down(large) {
+      text-align: center;
+    }
+
+    @include breakpoint-down(mobile) {
+      font-size: 2rem;
+      justify-content: center;
+    }
+  }
+
+  .products {
+    background: $greyBorder;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(1fr));
+    grid-gap: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+    @include breakpoint-down(large) {
+    }
+
+    @include breakpoint-down(medium) {
+    }
+
+    @include breakpoint-down(mobile) {
+      @include breakpoint-down(mobile) {
+        grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+      }
+    }
+  }
+  .item-container {
+    background: #ffff;
+    padding: 24px 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    min-width: 100%;
+    flex: 1;
+    .images {
+      max-width: 100%;
+      align-self: center;
+      height: 230px;
+      width: 230px;
+      @include breakpoint-down(mobile) {
+        padding: 12px 5px;
+      }
+
+      @include breakpoint-down(medium) {
+        padding: 10px 5px;
+      }
+
+      @include breakpoint-down(ipad) {
+        padding: 10px 3px;
+      }
+    }
+
+    .copy-container {
+      text-overflow: ellipsis;
+      .item-name {
+        color: $adoramaBlue;
+        font-size: 21px;
+        padding-bottom: 24px;
+        padding-top: 1rem;
+
+        @include breakpoint-down(mobile) {
+          font-size: 16px;
+        }
+      }
+
+      .sale-price {
+        font-size: 30px;
+        color: #222222;
+        padding-top: 0.2rem;
+        padding-bottom: 0.7rem;
+
+        @include breakpoint-down(mobile) {
+          font-size: 26px;
+        }
+      }
+
+      .list-price {
+        font-size: 12px;
+        text-decoration: line-through;
+        color: $darkBlue;
+
+        @include breakpoint-down(mobile) {
+          font-size: 10px;
+        }
+      }
+    }
+    button {
+      background: $buttonColor;
+      color: $white;
+      grid-row: 3;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      max-width: 100%;
+      cursor: pointer;
+      width: 300px;
+      height: 42px;
+
+      @include breakpoint-down(mobile) {
+        width: 100%;
+      }
+    }
+
+    button:active {
+      background: $activeButton;
+    }
+  }
+}

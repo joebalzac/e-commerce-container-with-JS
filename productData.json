@@ -1,0 +1,490 @@
+{
+  "status": "success",
+  "type": "GetProductData",
+  "params": {
+    "sku": "MRSC52,MRSBLTS,MRSF8W4,MRSCRB",
+    "pageType": "cmsSitePage"
+  },
+  "data": {
+    "MRSC52": {
+      "badge": {
+        "text": "Closeout",
+        "link": "closeout"
+      },
+      "adoramaBadges": [
+        {
+          "id": "FreeShipping",
+          "label": "Free Shipping",
+          "text": "<h3>free shipping</h3> <p>We offer Free <b>Shipping (7-10 Day delivery)</b> for this item when ordered through our Web Site.<br/> Free shipping is for the <b>48 Contiguous States only</b> (PO Boxes, FPO/APO, Hawaii, Puerto Rico, Alaska and Guam excluded). See full details <a href=\"/sup/static/modal-freeship-terms.html\" class=\"popup\" data-popup-class=\"popupShipping\" title=\"Free Shipping: Terms &amp; Conditions\"> here.</a></p>",
+          "isFreeShippingBadge": true
+        }
+      ],
+      "id": "MRSC52",
+      "link": "https://www.leisurepro.com/p-mrsc52/mares-carbon-52x-regulator",
+      "title": "Mares Carbon 52 Regulator",
+      "shortTitle": "Mares Carbon 52 Regulator",
+      "tinyDescription": "Mares Carbon 52X Regulator",
+      "mfgPart": "416162",
+      "stock": "In",
+      "subStatus": {
+        "name": "In Stock"
+      },
+      "freeShipping": true,
+      "isHasFreeVIPTwoDayDelivery": false,
+      "type": "regular",
+      "prices": {
+        "youSave": {
+          "dollar": 255,
+          "percent": 27
+        },
+        "price": 699.95,
+        "list": 954.95,
+        "isSale": true,
+        "highPrice": 954.95,
+        "itemPropPrice": 954.95,
+        "priceCode": "14",
+        "addToCartDataAction": "addToCart"
+      },
+      "images": [
+        {
+          "id": "384346",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52.jpg"
+        },
+        {
+          "id": "410309",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_1.jpg"
+        },
+        {
+          "id": "410311",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_2.jpg"
+        },
+        {
+          "id": "410307",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_3.jpg"
+        },
+        {
+          "id": "410303",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_4.jpg"
+        },
+        {
+          "id": "410301",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_5.jpg"
+        },
+        {
+          "id": "410300",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_6.jpg"
+        },
+        {
+          "id": "410302",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_7.jpg"
+        },
+        {
+          "id": "410304",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_8.jpg"
+        },
+        {
+          "id": "410299",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_9.jpg"
+        },
+        {
+          "id": "410306",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_10.jpg"
+        },
+        {
+          "id": "410310",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_11.jpg"
+        },
+        {
+          "id": "410305",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_12.jpg"
+        },
+        {
+          "id": "410308",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSC52_13.jpg"
+        }
+      ],
+      "highestEffectivePrice": 699.95,
+      "configLevels": "0",
+      "configurations": {},
+      "rating": {
+        "stars": "5.0",
+        "count": 2
+      },
+      "allConfigurationsCount": 0,
+      "isBundle": false,
+      "brand": "Mares",
+      "category": "Scuba/Regulators",
+      "priceType": "Add to Cart",
+      "cartLineID": 0,
+      "quantity": 0,
+      "shipInfoTitle": "Free Shipping",
+      "contractNumber": "",
+      "isDefaultContractNumber": true,
+      "isNeedRenderStockStatus": true,
+      "isNeedShippingAlert": false,
+      "isHasFreeTwoDayDelivery": false,
+      "isHasNoReturnFlag": false,
+      "isHasAvalabilityToCreateBundle": false,
+      "isApplePayEnabled": false,
+      "isFreeShipping49": false,
+      "isVIP360Show": false
+    },
+    "MRSBLTS": {
+      "adoramaBadges": [
+        {
+          "id": "FreeShipping",
+          "label": "Free Shipping",
+          "text": "<h3>free shipping</h3> <p>We offer Free <b>Shipping (7-10 Day delivery)</b> for this item when ordered through our Web Site.<br/> Free shipping is for the <b>48 Contiguous States only</b> (PO Boxes, FPO/APO, Hawaii, Puerto Rico, Alaska and Guam excluded). See full details <a href=\"/sup/static/modal-freeship-terms.html\" class=\"popup\" data-popup-class=\"popupShipping\" title=\"Free Shipping: Terms &amp; Conditions\"> here.</a></p>",
+          "isFreeShippingBadge": true
+        }
+      ],
+      "id": "MRSBLTS",
+      "link": "https://www.leisurepro.com/p-mrsblts/mares-bolt-sls-bcd",
+      "title": "Mares Bolt SLS BCD",
+      "shortTitle": "Mares Bolt SLS BCD",
+      "tinyDescription": "Mares Bolt SLS BCD",
+      "stock": "In",
+      "subStatus": {
+        "name": "In Stock",
+        "description": "Although this item is temporarily on Backorder, you can order it now and it will ship as soon as it arrives. Your card will only be charged once item is shipped."
+      },
+      "freeShipping": true,
+      "isHasFreeVIPTwoDayDelivery": false,
+      "type": "configurable",
+      "sizeChart": "MARES_BOLT_BCD.ASCX",
+      "prices": {
+        "youSave": {
+          "dollar": 50.05,
+          "percent": 10
+        },
+        "price": 449.95,
+        "list": 500,
+        "highPrice": 500,
+        "itemPropPrice": 449.95,
+        "priceCode": "5",
+        "addToCartDataAction": "addToCart"
+      },
+      "images": [
+        {
+          "id": "438762",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSBLTS.jpg"
+        },
+        {
+          "id": "438761",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSBLTS_2.jpg"
+        },
+        {
+          "id": "438760",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSBLTS_3.jpg"
+        },
+        {
+          "id": "438759",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSBLTS_4.jpg"
+        },
+        {
+          "id": "438758",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSBLTS_5.jpg"
+        }
+      ],
+      "highestEffectivePrice": 449.95,
+      "configLabels": ["Size"],
+      "configLevels": "1",
+      "configurations": {
+        "X-Small": {
+          "id": "MRSBLTSXS",
+          "link": "https://www.leisurepro.com/p-mrsbltsxs/mares-bolt-sls-bcd",
+          "name": "Mares Bolt SLS BCD X-Small",
+          "imageId": "438762",
+          "mfgPart": "417362XS",
+          "stock": "In",
+          "subStatus": {
+            "name": "In Stock"
+          },
+          "prices": {
+            "youSave": {
+              "dollar": 50.05,
+              "percent": 10
+            },
+            "price": 449.95,
+            "list": 500,
+            "highPrice": 500,
+            "itemPropPrice": 449.95,
+            "priceCode": "5"
+          },
+          "index": 0,
+          "contractNumber": "",
+          "isDefaultContractNumber": true,
+          "isDefault": false,
+          "shipInfoTitle": "Free Shipping",
+          "isHasFreeVipTwoDayDelivery": false,
+          "variant": "X-Small"
+        },
+        "Small": {
+          "id": "MRSBLTSSM",
+          "link": "https://www.leisurepro.com/p-mrsbltssm/mares-bolt-sls-bcd",
+          "name": "Mares Bolt SLS BCD Small",
+          "imageId": "438762",
+          "mfgPart": "417362S",
+          "stock": "In",
+          "subStatus": {
+            "name": "In Stock"
+          },
+          "prices": {
+            "youSave": {
+              "dollar": 50.05,
+              "percent": 10
+            },
+            "price": 449.95,
+            "list": 500,
+            "highPrice": 500,
+            "itemPropPrice": 449.95,
+            "priceCode": "5"
+          },
+          "index": 1,
+          "contractNumber": "",
+          "isDefaultContractNumber": true,
+          "isDefault": false,
+          "shipInfoTitle": "Free Shipping",
+          "isHasFreeVipTwoDayDelivery": false,
+          "variant": "Small"
+        },
+        "Medium": {
+          "id": "MRSBLTSMD",
+          "link": "https://www.leisurepro.com/p-mrsbltsmd/mares-bolt-sls-bcd",
+          "name": "Mares Bolt SLS BCD Medium",
+          "imageId": "438762",
+          "mfgPart": "417362M",
+          "stock": "In",
+          "subStatus": {
+            "name": "In Stock"
+          },
+          "prices": {
+            "youSave": {
+              "dollar": 50.05,
+              "percent": 10
+            },
+            "price": 449.95,
+            "list": 500,
+            "highPrice": 500,
+            "itemPropPrice": 449.95,
+            "priceCode": "5"
+          },
+          "index": 2,
+          "contractNumber": "",
+          "isDefaultContractNumber": true,
+          "isDefault": false,
+          "shipInfoTitle": "Free Shipping",
+          "isHasFreeVipTwoDayDelivery": false,
+          "variant": "Medium"
+        },
+        "Large": {
+          "id": "MRSBLTSLG",
+          "link": "https://www.leisurepro.com/p-mrsbltslg/mares-bolt-sls-bcd",
+          "name": "Mares Bolt SLS BCD Large",
+          "imageId": "438762",
+          "mfgPart": "417362L",
+          "stock": "In",
+          "subStatus": {
+            "name": "In Stock"
+          },
+          "prices": {
+            "youSave": {
+              "dollar": 50.05,
+              "percent": 10
+            },
+            "price": 449.95,
+            "list": 500,
+            "highPrice": 500,
+            "itemPropPrice": 449.95,
+            "priceCode": "5"
+          },
+          "index": 3,
+          "contractNumber": "",
+          "isDefaultContractNumber": true,
+          "isDefault": true,
+          "shipInfoTitle": "Free Shipping",
+          "isHasFreeVipTwoDayDelivery": false,
+          "variant": "Large"
+        },
+        "X-Large": {
+          "id": "MRSBLTSXL",
+          "link": "https://www.leisurepro.com/p-mrsbltsxl/mares-bolt-sls-bcd",
+          "name": "Mares Bolt SLS BCD X-Large",
+          "imageId": "438762",
+          "mfgPart": "417362XL",
+          "stock": "Out",
+          "subStatus": {
+            "name": "Temporarily On Backorder",
+            "description": "Although this item is temporarily on Backorder, you can order it now and it will ship as soon as it arrives. Your card will only be charged once item is shipped."
+          },
+          "prices": {
+            "youSave": {
+              "dollar": 50.05,
+              "percent": 10
+            },
+            "price": 449.95,
+            "list": 500,
+            "highPrice": 500,
+            "itemPropPrice": 449.95,
+            "priceCode": "5"
+          },
+          "index": 4,
+          "contractNumber": "",
+          "isDefaultContractNumber": true,
+          "isDefault": false,
+          "shipInfoTitle": "Free Shipping",
+          "isHasFreeVipTwoDayDelivery": false,
+          "variant": "X-Large"
+        }
+      },
+      "rating": {
+        "stars": "3.5",
+        "count": 7
+      },
+      "allConfigurationsCount": 5,
+      "isBundle": false,
+      "brand": "Mares",
+      "category": "Scuba/Buoyancy Compensators",
+      "priceType": "Add to Cart",
+      "cartLineID": 0,
+      "quantity": 0,
+      "shipInfoTitle": "Free Shipping",
+      "contractNumber": "",
+      "isDefaultContractNumber": true,
+      "isNeedRenderStockStatus": true,
+      "isNeedShippingAlert": false,
+      "isHasFreeTwoDayDelivery": false,
+      "isHasNoReturnFlag": false,
+      "isHasAvalabilityToCreateBundle": false,
+      "isApplePayEnabled": false,
+      "isFreeShipping49": false,
+      "isVIP360Show": false
+    },
+    "MRSF8W4": {
+      "parent": {
+        "id": "MRSF8W",
+        "link": "https://www.leisurepro.com/p-mrsf8w/mares-flexa-8-6-5mm-womens-wetsuit"
+      },
+      "badge": {
+        "text": "Closeout",
+        "link": "closeout"
+      },
+      "adoramaBadges": [
+        {
+          "id": "FreeShipping",
+          "label": "Free Shipping",
+          "text": "<h3>free shipping</h3> <p>We offer Free <b>Shipping (7-10 Day delivery)</b> for this item when ordered through our Web Site.<br/> Free shipping is for the <b>48 Contiguous States only</b> (PO Boxes, FPO/APO, Hawaii, Puerto Rico, Alaska and Guam excluded). See full details <a href=\"/sup/static/modal-freeship-terms.html\" class=\"popup\" data-popup-class=\"popupShipping\" title=\"Free Shipping: Terms &amp; Conditions\"> here.</a></p>",
+          "isFreeShippingBadge": true
+        }
+      ],
+      "id": "MRSF8W4",
+      "link": "https://www.leisurepro.com/p-mrsf8w4/mares-flexa-8-6-5mm-womens-wetsuit-4",
+      "title": "Mares Flexa 8-6-5mm Women's Wetsuit 4",
+      "shortTitle": "Mares Flexa 8-6-5mm Women's Wetsuit 4",
+      "stock": "In",
+      "subStatus": {
+        "name": "In Stock"
+      },
+      "freeShipping": true,
+      "isHasFreeVIPTwoDayDelivery": false,
+      "type": "regular",
+      "sizeChart": "MARES_WOMEN_WETSUITS.ASCX",
+      "prices": {
+        "youSave": {
+          "dollar": 110,
+          "percent": 32
+        },
+        "price": 234.95,
+        "list": 344.95,
+        "isSale": true,
+        "highPrice": 344.95,
+        "itemPropPrice": 344.95,
+        "priceCode": "9"
+      },
+      "images": [
+        {
+          "id": "384600",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSF8W.jpg"
+        }
+      ],
+      "configLabels": ["Size"],
+      "configLevels": "1",
+      "allConfigurationsCount": 7,
+      "isBundle": false,
+      "cartLineID": 0,
+      "quantity": 0,
+      "isNeedRenderStockStatus": true,
+      "isNeedShippingAlert": false,
+      "isHasFreeTwoDayDelivery": false,
+      "isHasNoReturnFlag": false,
+      "isHasAvalabilityToCreateBundle": false,
+      "isApplePayEnabled": false,
+      "isFreeShipping49": false,
+      "isVIP360Show": false
+    },
+    "MRSCRB": {
+      "badge": {
+        "text": "Top Rated Gear",
+        "link": "deal"
+      },
+      "adoramaBadges": [],
+      "id": "MRSCRB",
+      "link": "https://www.leisurepro.com/p-mrscrb/mares-cruise-regulator-bag",
+      "title": "Mares Cruise Regulator Bag",
+      "shortTitle": "Mares Cruise Regulator Bag",
+      "tinyDescription": "Mares Cruise Regulator Bag",
+      "mfgPart": "415546",
+      "stock": "In",
+      "subStatus": {
+        "name": "In Stock"
+      },
+      "freeShipping": false,
+      "isHasFreeVIPTwoDayDelivery": false,
+      "type": "regular",
+      "prices": {
+        "youSave": {
+          "dollar": 5.05,
+          "percent": 16
+        },
+        "price": 26.95,
+        "list": 32,
+        "highPrice": 32,
+        "itemPropPrice": 26.95,
+        "priceCode": "5",
+        "addToCartDataAction": "addToCart"
+      },
+      "images": [
+        {
+          "id": "384282",
+          "name": "https://www.leisurepro.com/Image/Product/Full/MRSCRB.jpg"
+        }
+      ],
+      "highestEffectivePrice": 26.95,
+      "configLevels": "0",
+      "configurations": {},
+      "rating": {
+        "stars": "4.5",
+        "count": 26
+      },
+      "allConfigurationsCount": 0,
+      "isBundle": false,
+      "brand": "Mares",
+      "category": "Bags & Apparel/Gear Bags",
+      "priceType": "Add to Cart",
+      "cartLineID": 0,
+      "quantity": 0,
+      "contractNumber": "",
+      "isDefaultContractNumber": true,
+      "isNeedRenderStockStatus": true,
+      "isNeedShippingAlert": false,
+      "isHasFreeTwoDayDelivery": false,
+      "isHasNoReturnFlag": false,
+      "isHasAvalabilityToCreateBundle": false,
+      "isApplePayEnabled": false,
+      "isFreeShipping49": false,
+      "isVIP360Show": false
+    },
+    "result": false,
+    "responseType": "json"
+  }
+}
