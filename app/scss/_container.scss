@@ -27,17 +27,30 @@
   }
 
   .products {
+    position: relative;
     background: $greyBorder;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(1fr));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
     grid-gap: 10px;
     padding: 10px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
+    justify-content: center;
+
+    :nth-of-type(3) {
+      .price-container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1.75rem;
+        margin: auto 0;
+      }
+
+      .item-name {
+        display: flex;
+        flex-direction: column;
+        margin: .6em 0 .4em;
+      }
+    }
 
     @include breakpoint-down(large) {
     }
@@ -52,19 +65,22 @@
     }
   }
   .item-container {
+    height: 100%;
     background: #ffff;
     padding: 24px 20px;
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
-    min-width: 100%;
-    flex: 1;
+    flex-grow: 1;
+    flex: 1 1 calc(33.3% - 24px);
+    margin: auto 0;
+
     .images {
+      max-height: 100%;
       max-width: 100%;
       align-self: center;
-      height: 230px;
-      width: 230px;
+
       @include breakpoint-down(mobile) {
         padding: 12px 5px;
       }
@@ -79,36 +95,46 @@
     }
 
     .copy-container {
-      text-overflow: ellipsis;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: auto 0;
+      width: 100%;
+
       .item-name {
+        display: flex;
         color: $adoramaBlue;
         font-size: 21px;
-        padding-bottom: 24px;
-        padding-top: 1rem;
+        margin-bottom: 12px;
+        align-items: center;
+        
 
         @include breakpoint-down(mobile) {
           font-size: 16px;
         }
       }
 
-      .sale-price {
-        font-size: 30px;
-        color: #222222;
-        padding-top: 0.2rem;
-        padding-bottom: 0.7rem;
+      .price-container {
+        .sale-price {
+          font-size: 30px;
+          color: #222222;
+          padding-top: 0.2rem;
+          padding-bottom: 0.7rem;
 
-        @include breakpoint-down(mobile) {
-          font-size: 26px;
+          @include breakpoint-down(mobile) {
+            font-size: 26px;
+          }
         }
-      }
 
-      .list-price {
-        font-size: 12px;
-        text-decoration: line-through;
-        color: $darkBlue;
+        .list-price {
+          font-size: 12px;
+          text-decoration: line-through;
+          color: $darkBlue;
 
-        @include breakpoint-down(mobile) {
-          font-size: 10px;
+          @include breakpoint-down(mobile) {
+            font-size: 10px;
+          }
         }
       }
     }
@@ -119,9 +145,8 @@
       font-size: 16px;
       border: none;
       border-radius: 5px;
-      max-width: 100%;
+      width: 100%;
       cursor: pointer;
-      width: 300px;
       height: 42px;
 
       @include breakpoint-down(mobile) {

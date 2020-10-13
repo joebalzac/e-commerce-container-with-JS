@@ -44,20 +44,43 @@ body {
 }
 
 .container .products {
+  position: relative;
   background: #f3f3f3;
   width: 100%;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  -ms-grid-rows: (minmax(1fr))[auto-fill];
-      grid-template-rows: repeat(auto-fill, minmax(1fr));
+  -ms-grid-rows: (minmax(100px, 1fr))[auto-fill];
+      grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
   grid-gap: 10px;
   padding: 10px;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .products :nth-of-type(3) .price-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 1.75rem;
+  margin: auto 0;
+}
+
+.container .products :nth-of-type(3) .item-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: .6em 0 .4em;
 }
 
 @media (max-width: 20rem) and (max-width: 20rem) {
@@ -68,6 +91,7 @@ body {
 }
 
 .container .item-container {
+  height: 100%;
   background: #ffff;
   padding: 24px 20px;
   display: -webkit-box;
@@ -77,24 +101,26 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-line-pack: center;
-      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  min-width: 100%;
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex: 1 1 calc(33.3% - 24px);
+      flex: 1 1 calc(33.3% - 24px);
+  margin: auto 0;
 }
 
 .container .item-container .images {
+  max-height: 100%;
   max-width: 100%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
-  height: 230px;
-  width: 230px;
 }
 
 @media (max-width: 20rem) {
@@ -116,14 +142,33 @@ body {
 }
 
 .container .item-container .copy-container {
-  text-overflow: ellipsis;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin: auto 0;
+  width: 100%;
 }
 
 .container .item-container .copy-container .item-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   color: #006aad;
   font-size: 21px;
-  padding-bottom: 24px;
-  padding-top: 1rem;
+  margin-bottom: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 20rem) {
@@ -132,7 +177,7 @@ body {
   }
 }
 
-.container .item-container .copy-container .sale-price {
+.container .item-container .copy-container .price-container .sale-price {
   font-size: 30px;
   color: #222222;
   padding-top: 0.2rem;
@@ -140,19 +185,19 @@ body {
 }
 
 @media (max-width: 20rem) {
-  .container .item-container .copy-container .sale-price {
+  .container .item-container .copy-container .price-container .sale-price {
     font-size: 26px;
   }
 }
 
-.container .item-container .copy-container .list-price {
+.container .item-container .copy-container .price-container .list-price {
   font-size: 12px;
   text-decoration: line-through;
   color: #585c5f;
 }
 
 @media (max-width: 20rem) {
-  .container .item-container .copy-container .list-price {
+  .container .item-container .copy-container .price-container .list-price {
     font-size: 10px;
   }
 }
@@ -166,9 +211,8 @@ body {
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  max-width: 100%;
+  width: 100%;
   cursor: pointer;
-  width: 300px;
   height: 42px;
 }
 

@@ -20,6 +20,8 @@ function appendData(data) {
     itemContainer.classList.add("item-container");
     var copyContainer = document.createElement("div");
     copyContainer.classList.add("copy-container");
+    var priceContainer = document.createElement("div");
+    priceContainer.classList.add("price-container");
 
     //main container
     document.getElementById("myData").innerHTML;
@@ -43,10 +45,11 @@ function appendData(data) {
     //appends
     itemContainer.appendChild(images);
     copyContainer.appendChild(title);
-    copyContainer.appendChild(list);
-    copyContainer.appendChild(price);
+    priceContainer.appendChild(list);
+    priceContainer.appendChild(price);
     itemContainer.appendChild(copyContainer);
     mainContainer.appendChild(itemContainer);
     itemContainer.appendChild(button);
+    copyContainer.appendChild(priceContainer);
   }
 }
