@@ -9,6 +9,7 @@ body {
   width: 100%;
   font-family: "Lato", sans-serif;
   font-weight: 300;
+  overflow-x: hidden;
 }
 
 .container {
@@ -20,7 +21,7 @@ body {
   max-width: 100%;
 }
 
-@media (max-width: 39.9375em) {
+@media (max-width: 31.25em) {
   .container .header img {
     position: absolute;
     top: 0;
@@ -38,20 +39,20 @@ body {
   padding-bottom: 1.5rem;
 }
 
-@media (max-width: 74.9375rem) {
+@media (max-width: 68.75em) {
   .container .title {
     text-align: center;
   }
 }
 
-@media (max-width: 39.9375em) {
+@media (max-width: 31.25em) {
   .container .title {
     padding-top: 5rem;
     font-size: 1.5rem;
   }
 }
 
-@media (max-width: 20rem) {
+@media (max-width: 20em) {
   .container .title {
     position: absolute;
     -webkit-box-pack: center;
@@ -81,14 +82,14 @@ body {
           justify-content: center;
 }
 
-@media (max-width: 39.9375em) {
+@media (max-width: 31.25em) {
   .container .products {
     -ms-grid-columns: (minmax(275px, 1fr))[auto-fill];
         grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
   }
 }
 
-@media (max-width: 20rem) {
+@media (max-width: 20em) {
   .container .products {
     -ms-grid-columns: (minmax(230px, 1fr))[auto-fill];
         grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -128,19 +129,19 @@ body {
       align-self: center;
 }
 
-@media (max-width: 20rem) {
+@media (max-width: 20em) {
   .container .item-container .images {
     padding: 12px 5px;
   }
 }
 
-@media (max-width: 50rem) {
+@media (max-width: 56.25em) {
   .container .item-container .images {
     padding: 10px 5px;
   }
 }
 
-@media (max-width: 63.125) {
+@media (max-width: null) {
   .container .item-container .images {
     padding: 10px 3px;
   }
@@ -178,7 +179,7 @@ body {
       flex-basis: 0 300px;
 }
 
-@media (max-width: 20rem) {
+@media (max-width: 20em) {
   .container .item-container .copy-container .item-name {
     font-size: 16px;
   }
@@ -191,7 +192,7 @@ body {
   padding-bottom: 0.7rem;
 }
 
-@media (max-width: 20rem) {
+@media (max-width: 20em) {
   .container .item-container .copy-container .price-container .sale-price {
     font-size: 26px;
   }
@@ -203,7 +204,7 @@ body {
   color: #585c5f;
 }
 
-@media (max-width: 20rem) {
+@media (max-width: 20em) {
   .container .item-container .copy-container .price-container .list-price {
     font-size: 10px;
   }
@@ -224,7 +225,7 @@ body {
   height: 42px;
 }
 
-@media (max-width: 20rem) {
+@media (max-width: 20em) {
   .container .item-container button {
     width: 100%;
   }
@@ -232,5 +233,107 @@ body {
 
 .container .item-container button:active {
   background: #bd6f02;
+}
+
+.glider-contain {
+  background: #f3f3f3;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+.glider-contain .glider {
+  height: 100%;
+  width: 100%;
+}
+
+.glider-contain .glider .glider-item {
+  background: #fff;
+  display: block;
+  height: 100%;
+  margin: 0.3rem;
+  width: 100%;
+}
+
+.glider-contain .glider .background-image {
+  position: relative;
+  overflow: hidden;
+  height: 175px;
+  width: 400px;
+  min-width: 140px;
+  max-width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+@media (max-width: 31.25em) {
+  .glider-contain .glider .background-image {
+    width: 500px;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 20em) {
+  .glider-contain .glider .background-image {
+    height: 200px;
+    width: 400px;
+  }
+}
+
+.glider-contain .glider .glider-copy {
+  margin: 0;
+  min-height: 110px;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 22px 12px 22px 22px;
+  text-rendering: optimizeLegibility;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.glider-contain .arrows {
+  background: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  -webkit-box-shadow: 1px 2px 3px #222;
+          box-shadow: 1px 2px 3px #222;
+}
+
+.glider-contain .glider-next {
+  right: -5px;
+  top: 35%;
+}
+
+.glider-contain .next {
+  left: 2px;
+}
+
+.glider-contain .glider-prev {
+  left: -5px;
+  top: 35%;
+}
+
+.glider-contain .prev {
+  right: 2px;
+}
+
+.glider-contain .fa {
+  position: relative;
+  color: #222;
+  font-size: 22px;
+  top: -5px;
+}
+
+.glider-contain .glider-dot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  color: #222;
+  border-radius: 999px;
+  width: 8px;
+  height: 8px;
+  margin: 6px;
 }
 /*# sourceMappingURL=style.css.map */

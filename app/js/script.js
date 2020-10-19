@@ -53,3 +53,49 @@ function appendData(data) {
     copyContainer.appendChild(priceContainer);
   }
 }
+
+new Glider(document.querySelector(".glider"), {
+  slidesToShow: 1.5,
+  slidesToScroll: 1,
+  itemWidth: 150,
+  dots: "#dots",
+  draggable: true,
+  arrows: {
+    prev: ".glider-prev",
+    next: ".glider-next",
+  },
+  responsive: [
+    {
+      // screens greater than >= 775px
+      breakpoint: 500,
+      settings: {
+        // Set to `auto` and provide item width to adjust to viewport
+        slidesToShow: "2.5",
+        slidesToScroll: "4",
+        itemWidth: 0,
+        duration: 0.25,
+      },
+    },
+    {
+      // screens greater than >= 775px
+      breakpoint: 900,
+      settings: {
+        // Set to `auto` and provide item width to adjust to viewport
+        slidesToShow: "3",
+        slidesToScroll: "3",
+        itemWidth: 0,
+        duration: 0.25,
+      },
+    },
+    {
+      // screens greater than >= 1024px
+      breakpoint: 1100,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        itemWidth: 0,
+        duration: 0.25,
+      },
+    },
+  ],
+});
