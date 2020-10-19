@@ -54,6 +54,7 @@
       text-rendering: optimizeLegibility;
       text-overflow: ellipsis;
       overflow: hidden;
+      white-space: nowrap;
 
       @include breakpoint-down(small) {
         font-size: 15px;
