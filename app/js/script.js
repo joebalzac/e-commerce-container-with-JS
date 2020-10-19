@@ -59,6 +59,7 @@ new Glider(document.querySelector(".glider"), {
   slidesToScroll: 1,
   dots: "#dots",
   draggable: true,
+  exactWidth: 230,
   arrows: {
     prev: ".glider-prev",
     next: ".glider-next",
