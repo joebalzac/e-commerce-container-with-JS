@@ -295,8 +295,6 @@ body {
   line-height: 1.5;
   padding: 22px 12px 22px 22px;
   text-rendering: optimizeLegibility;
-  text-overflow: ellipsis;
-  overflow: hidden;
 }
 
 @media (max-width: 31.25em) {

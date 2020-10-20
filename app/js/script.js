@@ -56,10 +56,9 @@ function appendData(data) {
 
 new Glider(document.querySelector(".glider"), {
   slidesToShow: 1.5,
-  slidesToScroll: 1,
+  slidesToScroll: 1.5,
   dots: "#dots",
   draggable: true,
-  exactWidth: 0,
   arrows: {
     prev: ".glider-prev",
     next: ".glider-next",

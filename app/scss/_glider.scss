@@ -52,9 +52,8 @@
       line-height: 1.5;
       padding: 22px 12px 22px 22px;
       text-rendering: optimizeLegibility;
-      text-overflow: ellipsis;
-      overflow: hidden;
-      white-space: nowrap;
+      
+      
 
       @include breakpoint-down(small) {
         font-size: 15px;
@@ -62,6 +61,8 @@
       }
     }
   }
+
+
 
   .arrows {
     background: #fff;
