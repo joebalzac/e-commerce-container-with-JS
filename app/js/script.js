@@ -56,7 +56,7 @@ function appendData(data) {
 
 new Glider(document.querySelector(".glider"), {
   slidesToShow: 1.5,
-  slidesToScroll: 1.5,
+  slidesToScroll: 1,
   dots: "#dots",
   draggable: true,
   arrows: {
@@ -70,8 +70,8 @@ new Glider(document.querySelector(".glider"), {
       settings: {
         // Set to `auto` and provide item width to adjust to viewport
         slidesToShow: "2.5",
-        slidesToScroll: "4",
-        itemWidth: 0,
+        slidesToScroll: "2",
+        
         duration: 0.25,
       },
     },
@@ -80,8 +80,8 @@ new Glider(document.querySelector(".glider"), {
       breakpoint: 900,
       settings: {
         // Set to `auto` and provide item width to adjust to viewport
-        slidesToShow: "3",
-        slidesToScroll: "3",
+        slidesToShow: "auto",
+        slidesToScroll: "auto",
         itemWidth: 0,
         duration: 0.25,
       },

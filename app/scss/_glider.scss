@@ -5,8 +5,10 @@
   width: 100%;
 
   h1 {
+    padding: 12px;
+
     @include breakpoint-down(mobile) {
-      font-size: 30px;
+      font-size: 20px;
       padding: 0 10px 18px 10px;
     }
   }
@@ -14,6 +16,7 @@
   .glider {
     height: 100%;
     width: 100%;
+    padding: 12px;
 
     .glider-item {
       background: #fff;
@@ -52,8 +55,6 @@
       line-height: 1.5;
       padding: 22px 12px 22px 22px;
       text-rendering: optimizeLegibility;
-      
-      
 
       @include breakpoint-down(small) {
         font-size: 15px;
@@ -61,8 +62,6 @@
       }
     }
   }
-
-
 
   .arrows {
     background: #fff;
