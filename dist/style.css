@@ -30,7 +30,6 @@ body {
   max-height: 250px;
   width: 100%;
   max-width: 1410px;
-  margin: 0 auto;
 }
 
 @media (max-width: 56.25em) {

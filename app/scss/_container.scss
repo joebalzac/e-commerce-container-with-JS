@@ -16,7 +16,6 @@
     max-height: 250px;
     width: 100%;
     max-width: 1410px;
-    margin: 0 auto;
 
     @include breakpoint-down(medium) {
       background-position-x: 75%;
