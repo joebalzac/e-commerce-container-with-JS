@@ -17,6 +17,7 @@
     width: 100%;
     max-width: 1410px;
     margin: 0 auto;
+
     @include breakpoint-down(medium) {
       background-position-x: 75%;
       background-position-y: 30%;
@@ -24,7 +25,7 @@
       background-size: cover;
 
       @include breakpoint-down(mobile) {
-        background-position-x: 73.5%;
+        background-position-x: 73%;
         background-position-y: 25%;
         height: 35%;
       }
@@ -41,13 +42,14 @@
       padding-top: 2.125rem;
       padding-bottom: 1.5rem;
 
-      @include breakpoint-down(large) {
+      @include breakpoint-up(xlarge) {
         text-align: center;
       }
 
-      @include breakpoint-down(small) {
+      @include breakpoint-down(medium) {
         padding-top: 1rem;
         font-size: 1.5rem;
+        text-align: center;
       }
 
       @include breakpoint-down(mobile) {
