@@ -34,14 +34,19 @@ body {
 
 @media (max-width: 56.25em) {
   .container .header {
-    background-position-x: 75%;
-    background-position-y: 30%;
-    height: 50%;
     background-size: cover;
+    height: 36%;
   }
 }
 
-@media (max-width: 56.25em) and (max-width: 20em) {
+@media (max-width: 31.25em) {
+  .container .header {
+    height: 30%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 320px) {
   .container .header {
     background-position-x: 73%;
     background-position-y: 25%;
@@ -76,7 +81,7 @@ body {
   }
 }
 
-@media (max-width: 20em) {
+@media (max-width: 320px) {
   .container .section .title {
     padding-top: 1rem;
   }
@@ -105,7 +110,7 @@ body {
   }
 }
 
-@media (max-width: 20em) {
+@media (max-width: 320px) {
   .container .section .products {
     -ms-grid-columns: (minmax(230px, 1fr))[auto-fill];
         grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
@@ -144,7 +149,7 @@ body {
       align-self: center;
 }
 
-@media (max-width: 20em) {
+@media (max-width: 320px) {
   .container .section .item-container .images {
     padding: 12px 5px;
   }
@@ -200,7 +205,7 @@ body {
   }
 }
 
-@media (max-width: 20em) {
+@media (max-width: 320px) {
   .container .section .item-container .copy-container .item-name {
     font-size: 16px;
   }
@@ -213,7 +218,7 @@ body {
   padding-bottom: 0.7rem;
 }
 
-@media (max-width: 20em) {
+@media (max-width: 320px) {
   .container .section .item-container .copy-container .price-container .sale-price {
     font-size: 26px;
   }
@@ -225,7 +230,7 @@ body {
   color: #585c5f;
 }
 
-@media (max-width: 20em) {
+@media (max-width: 320px) {
   .container .section .item-container .copy-container .price-container .list-price {
     font-size: 10px;
   }
@@ -245,7 +250,7 @@ body {
   height: 42px;
 }
 
-@media (max-width: 20em) {
+@media (max-width: 320px) {
   .container .section .item-container button {
     width: 100%;
   }
@@ -266,9 +271,9 @@ body {
   padding: 12px;
 }
 
-@media (max-width: 20em) {
+@media (max-width: 320px) {
   .glider-contain h1 {
-    font-size: 24px;
+    font-size: 18px;
     padding: 0 10px 18px 10px;
   }
 }
@@ -320,7 +325,7 @@ body {
           box-shadow: 1px 2px 3px #222;
 }
 
-@media (max-width: 20em) {
+@media (max-width: 320px) {
   .glider-contain .arrows {
     display: none;
   }
@@ -363,7 +368,7 @@ body {
   margin: 6px;
 }
 
-@media (max-width: 20em) {
+@media (max-width: 320px) {
   .glider-contain .glider-dot {
     display: none;
   }

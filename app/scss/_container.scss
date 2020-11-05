@@ -18,16 +18,19 @@
     max-width: 1410px;
 
     @include breakpoint-down(medium) {
-      background-position-x: 75%;
-      background-position-y: 30%;
-      height: 50%;
       background-size: cover;
+      height: 36%;
+    }
 
-      @include breakpoint-down(mobile) {
-        background-position-x: 73%;
-        background-position-y: 25%;
-        height: 35%;
-      }
+    @include breakpoint-down(small) {
+      height: 30%;
+      max-width: 100%;
+    }
+
+    @include breakpoint-down(mobile) {
+      background-position-x: 73%;
+      background-position-y: 25%;
+      height: 35%;
     }
   }
   .section {
